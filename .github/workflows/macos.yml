@@ -18,7 +18,7 @@ jobs:
       run: |
           git clone https://github.com/STEllAR-GROUP/hpx.git && \
           cmake \
-              -H. \
+              -S hpx \
               -Bbuild \
               -GNinja \
               -DCMAKE_BUILD_TYPE=Debug \
